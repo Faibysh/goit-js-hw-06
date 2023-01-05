@@ -13,6 +13,10 @@ body {
   line-height: 1.5;
 }
 
+img {
+  grid-template-columns: repeat(2, 1fr);
+}
+
 input {
   padding: 8px;
   font: inherit;
