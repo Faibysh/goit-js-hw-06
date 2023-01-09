@@ -17,7 +17,7 @@ const listEl = document.querySelector('.gallery');
 const createImgEl = images.map(image => {
   let addEl = listEl.insertAdjacentHTML(
     "beforeend",
-    `<li><img src=${image.url} alt='${image.alt}'width = 300 height = 200></li> `
+    `<li><img src=${image.url} alt='${image.alt}'width = 400 height = 300></li> `
   );
   return addEl
 })
