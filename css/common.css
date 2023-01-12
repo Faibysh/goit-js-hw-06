@@ -15,7 +15,9 @@ body {
 
 }
 
-
+.item__img {
+  list-style: none;
+}
 
 input {
   padding: 8px;
